@@ -12,7 +12,7 @@ int main(){
     for(int i = 0; i < n; i++){
             scanf("%d",&o);
             cont = 0;
-            printf("fib(%d) = %d calls = %dn",o,cont-1,fibonacci(o));
+            printf("fib(%d) = %d calls = %d",o,cont-1,fibonacci(o));
     }
     return 0;
 }
