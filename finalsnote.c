@@ -113,8 +113,8 @@ int main()
     for(i = 2;i < n;i++){
         ar[i] = ar[i-2] + ar[i-1];
     }
-    printf("0");
-    for(j = 1;j < n;j++){
+    //printf("0");
+    for(j = 0;j < n;j++){
         printf(" %d", ar[j]);
     }
     printf("\n");
