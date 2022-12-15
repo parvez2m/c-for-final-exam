@@ -7,6 +7,7 @@
 //     if (n != 0) return n + sum(n-1); 
 //     else return n;
 // }
+
 // int main() {
 //     int number, result;
 //     printf("Enter a positive integer: ");
@@ -21,12 +22,12 @@
 // int nthfib(int n){
 //     if(n<=1) return n;
 //     return nthfib(n-1) + nthfib(n-2);
-
 // }
+
 // int main(){
 //     int n;
 //     scanf("%d",&n);
-//     int fib= nthfib(n);
+//     int fib = nthfib(n);
 //     printf("%d\n", fib);
 // }
 
@@ -53,10 +54,7 @@
 // double sum(int x, int n)
 // {
 // 	double i, total = 1.0, multi = x;
-// 	// First Term of series
 // 	printf("1 ");
-// 	// Loop to find the N
-// 	// terms of the series
 // 	for (i = 1; i < n; i++) {
 // 		total = total + multi;
 // 		printf("%.1f ", multi);
@@ -74,12 +72,6 @@
 // 	printf("%.2f", sum(x, n));
 // 	return 0;
 // }
-
-
-
-
-
-
 
 //***************** pointer
 // #include <stdio.h>
@@ -119,4 +111,8 @@
 //     }
 //     printf("\n");
 //     return 0;
+// }
+
+// void Scan(int *p;*q){
+//     scanf("a=%d,b=%d",*x);
 // }
