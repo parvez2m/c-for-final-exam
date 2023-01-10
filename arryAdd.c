@@ -2,6 +2,7 @@
 int main (){
     int x[5];
     int sum = 0;
+    int a;
     for (int i = 0; i<5;i++){
         scanf("%d",&x[i]);
         if((x[i]%2)!=0){
